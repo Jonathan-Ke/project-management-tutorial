@@ -23,7 +23,8 @@ sideA=float(input("Enter the length of side A: "))
 sideB=float(input("Enter the length of side B: "))
 
 # solve equation
-print(solver(sideA,sideB))
+# sideA variable will pass data to the a parameter
+# sideB variable will pass data to the b parameter
+print(solver(sideA,sideB)) #print whatever date is returned from the functution
 
 
-# output answer
